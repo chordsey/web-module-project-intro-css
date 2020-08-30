@@ -1,0 +1,48 @@
+.column {
+  float:left;
+  width: 11%;
+  margin-left:11%;
+  margin-right:11%;
+}
+
+#first {
+  background-color: #FF764E;
+  text-align: center;
+}
+
+#second {
+  background-color: #5ED3EB;
+  text-align: center;
+}
+
+#third {
+  background-color: #FFCD69;
+  text-align: center;
+}
+
+header-row {
+  white-space:nowrap;
+}
+
+img.header-row {
+  display:inline;
+  height:300px;
+  width:auto;
+  border-radius:50%;
+  margin:5%;
+}
+
+h1.header-row {
+  display:inline;
+  white-space:nowrap;
+  margin-left:15%;
+}
+
+
+#text-container {
+  height: auto;
+  width: auto;
+  text-align:center;
+  padding:10px;
+  background-color: #DDB9A3;
+}
