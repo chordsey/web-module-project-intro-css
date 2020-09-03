@@ -1,8 +1,15 @@
-.column {
+@import url (https://fonts.google.com/specimen/Chelsea+Market);
+
+.coloredboxes {
   float:left;
   width: 11%;
+  height: 50px;
   margin-left:11%;
   margin-right:11%;
+  border-radius: 15px;
+  border: 1px solid black;
+  line-height: 150%;
+  color: white;
 }
 
 #first {
@@ -17,32 +24,46 @@
 
 #third {
   background-color: #FFCD69;
+  vertical-align: middle;
   text-align: center;
 }
 
 header-row {
-  white-space:nowrap;
+  white-space: nowrap;
 }
 
 img.header-row {
-  display:inline;
-  height:300px;
-  width:auto;
-  border-radius:50%;
-  margin:5%;
+  float: left;
+  height: 250px;
+  width: auto;
+  border-radius: 50%;
+  padding: 2%;
+  margin-left: 5%;
 }
 
 h1.header-row {
-  display:inline;
-  white-space:nowrap;
-  margin-left:15%;
+  text-align: center;
+  padding-top: 15%;
+  font: Chelsea Market;
+}
+
+#subtext1 {
+  text-align: center;
+}
+
+#subtext2 {
+  text-align: center;
+  padding-bottom: 5%;
 }
 
 
 #text-container {
+  display:inline-block;
   height: auto;
   width: auto;
-  text-align:center;
-  padding:10px;
+  text-align: center;
   background-color: #DDB9A3;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
 }
